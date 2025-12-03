@@ -1,0 +1,63 @@
+*{
+   font-family: "Figtree", sans-serif;
+   margin: 0;
+   padding: 0;
+
+}
+body{
+  min-height: 100vh;
+   display: flex;
+  
+   align-items: center;
+   justify-content: center;
+   background-color:whitesmoke;
+
+
+
+}
+.contain{
+      position: relative;
+      background-image: url(bg.png);
+      padding: 20px;
+     border-radius: 15px;
+     max-width: 380px;
+     width: 100%;
+}
+header, .logo{
+   display: flex;
+   align-items: center;
+  justify-content: space-between;
+
+}
+.logo img{
+
+   width: 48px;
+}
+header .chip{
+   width: 50px;
+}
+.logo h5{
+   color: white;
+   margin-left: 10px;
+}
+.details h5{
+   color: white;
+   margin-top: 10px;
+}
+.valid{
+   color: white;
+   display: flex;
+   flex-direction: column;
+ align-items: end;
+
+}
+.valid .date{
+   margin-top: 7px;
+}
+.details .name{
+   margin-top: 9px;
+   font-size: 15px;
+}
+.details .number{
+   margin-top: 15px;
+}
